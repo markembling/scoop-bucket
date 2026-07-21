@@ -1,0 +1,20 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\.ccxml\OpenWithProgIDs]
+"ColourChooser.ccxml"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\ColourChooser.ccxml]
+@="Colour Chooser Palette"
+"FriendlyTypeName"="Colour Chooser Palette"
+
+[HKEY_CURRENT_USER\Software\Classes\ColourChooser.ccxml\DefaultIcon]
+@="\"$colourChooserExe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\ColourChooser.ccxml\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\ColourChooser.ccxml\shell\open]
+"Icon"="\"$colourChooserExe\",0"
+
+[HKEY_CURRENT_USER\Software\Classes\ColourChooser.ccxml\shell\open\command]
+@="\"$colourChooserExe\" \"%1\""
