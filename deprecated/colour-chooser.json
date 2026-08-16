@@ -1,6 +1,6 @@
 {
     "version": "1.11.1",
-    "description": "Windows desktop app for selecting and managing colours.",
+    "description": "Windows desktop app for selecting and managing colours (deprecated).",
     "homepage": "https://markembling.info/2010/12/colour-chooser",
     "license": "Proprietary",
     "architecture": {
@@ -14,6 +14,8 @@
         [ "ColourChooser.exe", "Colour Chooser" ]
     ],
     "notes": [
+        "This app is deprecated. Please use Palette Picker instead.",
+        "See https://markembling.info/software/palette-picker for more information.",
         "For file associations, run:",
         "reg import \"$dir\\install-associations.reg\""
     ],

@@ -1,0 +1,18 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\.ccxml\OpenWithProgIDs]
+"PalettePicker.ccxml"=hex(0):
+
+
+[HKEY_CURRENT_USER\Software\Classes\PalettePicker.ccxml]
+@="Palette Picker Palette"
+
+[HKEY_CURRENT_USER\Software\Classes\PalettePicker.ccxml\DefaultIcon]
+@="$paletteIconPath"
+
+[HKEY_CURRENT_USER\Software\Classes\PalettePicker.ccxml\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\PalettePicker.ccxml\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\PalettePicker.ccxml\shell\open\command]
+@="\"$palettePickerExe\" \"%1\""
